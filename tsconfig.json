@@ -21,10 +21,8 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "node_modules/@infosum/unikitty/dist/styled.d.ts",
     "src",
     "interfaces.d.ts",
-    "rtk.d.ts",
     "test"
   ],
 }
