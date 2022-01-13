@@ -1,0 +1,66 @@
+{
+  "name": "nexus",
+  "version": "0.1.0",
+  "author": "Martin Lewis-Dalgarno, Rob Clayburn, Anna Thomas",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.7.1",
+    "@rtk-incubator/rtk-query": "^0.3.0",
+    "@xstate/react": "^1.6.3",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.6",
+    "redux-logger": "^3.0.6",
+    "xstate": "^4.27.0"
+  },
+  "scripts": {
+    "start": "HTTPS=true PORT=3030 react-scripts start",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devServer": {
+    "watchOptions": {
+      "ignored": [
+        "**/node_modules/"
+      ]
+    }
+  },
+  "devDependencies": {
+    "@babel/register": "^7.16.0",
+    "@rtk-incubator/rtk-query-codegen-openapi": "^0.5.1",
+    "@types/redux-logger": "^3.0.9",
+    "@types/redux-thunk": "^2.1.32",
+    "@xstate/inspect": "^0.6.0",
+    "babel-plugin-transform-assets-import-to-string": "^1.2.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-only-warn": "^1.0.3",
+    "eslint-plugin-testing-library": "^4.12.4",
+    "jest": "^26.6.0",
+    "jest-canvas-mock": "^2.3.1",
+    "jest-environment-jsdom": "^27.3.1",
+    "jest-fail-on-console": "^2.1.1",
+    "msw": "^0.35.0",
+    "react-scripts": "^4.0.3",
+    "ts-loader": "^8.3.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.5.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
