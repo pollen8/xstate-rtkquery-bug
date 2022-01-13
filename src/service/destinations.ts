@@ -1,5 +1,5 @@
 
-import { api as generatedApi } from '../service/destinations-api.generated';
+import { api as generatedApi } from './destinations-api.generated';
 
 // Define a service using a base URL and expected endpoints
 

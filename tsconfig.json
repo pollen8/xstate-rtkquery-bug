@@ -22,7 +22,6 @@
   },
   "include": [
     "src",
-    "interfaces.d.ts",
-    "test"
-  ],
+    "interfaces.d.ts"
+  ]
 }
